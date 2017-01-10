@@ -1,0 +1,27 @@
+@import url("../oshin/style.css");
+/*
+Theme Name: Timberland
+Description: Oshin Child Theme for Timberland Acres
+Author: Reach Maine
+Template: oshin
+Version: 1.2
+*/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* ----------- Typography ------------------------------- */
+i.fa-pull-left {
+  float: left;
+  padding-right: 5px; }
+
+i.fa-pull-right {
+  float: right;
+  padding-left: 5px; }
+
+/* ----------- end typography ----------- */
+/*** slidebar in oshine slidebar is above main content *** */
+#reach-bottom-cta {
+  background-color: #c7a06f;
+  padding-top: 20px; }
+
+/* *** keep this at the end *** */
+/* **** media **** */
