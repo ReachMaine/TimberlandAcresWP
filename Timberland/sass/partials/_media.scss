@@ -12,6 +12,12 @@
         }
     }
 }
+
+@media only screen and (max-width: 960px) { // table - mobile menu shows
+    .left-header #header-top-bar {
+        display: block;
+    }
+}
 @media only screen and (max-width: 767px) {
 // tablet & smaller
 }

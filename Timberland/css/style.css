@@ -44,6 +44,21 @@ table.tablepress.tarvp-rates {
 
 /* **** end tablepress styling **** */
 /*** slidebar in oshine slidebar is above main content *** */
+#sb-slidebar-content .menu {
+  background-color: #b41512;
+  border: 1px solid #b41512;
+  padding: 20px 0px;
+  margin-left: 10px;
+  margin-right: 10px; }
+  #sb-slidebar-content .menu #slidebar-menu a:hover {
+    color: #cacaca !important; }
+  #sb-slidebar-content .menu #slidebar-menu li {
+    color: white; }
+  #sb-slidebar-content .menu #slidebar-menu li.current-menu-item {
+    background-color: white; }
+    #sb-slidebar-content .menu #slidebar-menu li.current-menu-item > a {
+      color: black !important; }
+
 #content {
   background-color: white !important;
   margin: 30px;
@@ -63,3 +78,6 @@ table.tablepress.tarvp-rates {
     margin: 5%; }
     #content #content-wrap {
       padding: 40px 40px; } }
+@media only screen and (max-width: 960px) {
+  .left-header #header-top-bar {
+    display: block; } }

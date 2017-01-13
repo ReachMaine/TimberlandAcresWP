@@ -14,6 +14,34 @@ Version: 1.2
 
 
 /*** slidebar in oshine slidebar is above main content *** */
+#sb-slidebar-content {
+    #logo-sidebar {
+
+    }
+    .menu {
+        background-color: $tarvp-red;
+        border: 1px solid $tarvp-red;
+        padding: 20px 0px;
+        //margin-bottom: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        #slidebar-menu {
+            a:hover {
+                color: #cacaca!important;
+            }
+            li {
+                color: white; // !important;
+            }
+            li.current-menu-item {
+                background-color: white;
+                > a {
+                    color: black!important;
+                }
+            }
+        }
+    }
+}
+
 // content
 
  #content {
