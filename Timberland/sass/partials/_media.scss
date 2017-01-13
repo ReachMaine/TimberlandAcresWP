@@ -25,3 +25,18 @@
     // phones
 
 }
+@media only screen and (max-width: 425) {
+    // small phones
+    #content {
+        margin-left: 0px;
+        margin-right: 0px;
+        #content-wrap {
+            padding-left: 0px;
+            padding-right: 0px;
+            .tatsu-row  {
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+        }
+    }
+}

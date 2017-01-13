@@ -51,6 +51,9 @@ Version: 1.2
     border: 6px solid green;
     #content-wrap {
         padding: 40px 20px;
+        .tatsu-medium-gutter .tatsu-row {
+            margin: 0px 0px;
+        }
     }
 }
 // footer

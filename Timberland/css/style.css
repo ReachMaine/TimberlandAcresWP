@@ -66,6 +66,8 @@ table.tablepress.tarvp-rates {
   border: 6px solid green; }
   #content #content-wrap {
     padding: 40px 20px; }
+    #content #content-wrap .tatsu-medium-gutter .tatsu-row {
+      margin: 0px 0px; }
 
 #reach-bottom-cta {
   background-color: #ffdcb0;
@@ -81,3 +83,13 @@ table.tablepress.tarvp-rates {
 @media only screen and (max-width: 960px) {
   .left-header #header-top-bar {
     display: block; } }
+@media only screen and (max-width: 425) {
+  #content {
+    margin-left: 0px;
+    margin-right: 0px; }
+    #content #content-wrap {
+      padding-left: 0px;
+      padding-right: 0px; }
+      #content #content-wrap .tatsu-row {
+        margin-left: 0px;
+        margin-right: 0px; } }
