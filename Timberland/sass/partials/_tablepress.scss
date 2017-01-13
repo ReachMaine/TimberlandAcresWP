@@ -1,0 +1,30 @@
+/* **** tablepress styling **** */
+// rates tables
+h2.tablepress-table-name {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.tablepress-table-description  {
+    text-align: center;
+}
+table.tablepress.tarvp-rates {
+    border: 1px solid $tarvp-green;
+    thead th {
+        background-color: $tarvp-tan;
+        font-size: .75em;
+    }
+    tfoot th {
+        background-color: transparent;
+        font-size: .75em;
+    }
+    tbody tr .column-1 {
+        font-size: .75em;
+        line-height: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-right: 1px solid #ddd;
+    }
+}
+
+/* **** end tablepress styling **** */

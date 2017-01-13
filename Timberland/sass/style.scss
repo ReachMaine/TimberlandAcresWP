@@ -9,11 +9,22 @@ Version: 1.2
 @import url("../oshin/style.css");
 @import "partials/colors";
 @import "partials/typography";
+@import "partials/tablepress";
 
 
 
 /*** slidebar in oshine slidebar is above main content *** */
+// content
 
+ #content {
+    background-color: $content-bkgd!important;
+    margin: 30px;
+    /* - see media for content padding. */
+    border: 6px solid green;
+    #content-wrap {
+        padding: 40px 20px;
+    }
+}
 // footer
 // reach cta
 #reach-bottom-cta {

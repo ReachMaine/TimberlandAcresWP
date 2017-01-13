@@ -1,5 +1,21 @@
+
 /* **** media **** */
 
+@media only screen and (min-width: 768px) {
+// desktop
+
+    #content {
+         // larger margins & padding at desktop
+        margin: 5%;
+        #content-wrap {
+            padding: 40px 40px;
+        }
+    }
+}
 @media only screen and (max-width: 767px) {
+// tablet & smaller
+}
+@media only screen and (max-width: 479px) {
+    // phones
 
 }

@@ -18,10 +18,48 @@ i.fa-pull-right {
   padding-left: 5px; }
 
 /* ----------- end typography ----------- */
+/* **** tablepress styling **** */
+h2.tablepress-table-name {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 0px; }
+
+.tablepress-table-description {
+  text-align: center; }
+
+table.tablepress.tarvp-rates {
+  border: 1px solid #006838; }
+  table.tablepress.tarvp-rates thead th {
+    background-color: #ffdcb0;
+    font-size: .75em; }
+  table.tablepress.tarvp-rates tfoot th {
+    background-color: transparent;
+    font-size: .75em; }
+  table.tablepress.tarvp-rates tbody tr .column-1 {
+    font-size: .75em;
+    line-height: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-right: 1px solid #ddd; }
+
+/* **** end tablepress styling **** */
 /*** slidebar in oshine slidebar is above main content *** */
+#content {
+  background-color: white !important;
+  margin: 30px;
+  /* - see media for content padding. */
+  border: 6px solid green; }
+  #content #content-wrap {
+    padding: 40px 20px; }
+
 #reach-bottom-cta {
-  background-color: #c7a06f;
+  background-color: #ffdcb0;
   padding-top: 20px; }
 
 /* *** keep this at the end *** */
 /* **** media **** */
+@media only screen and (min-width: 768px) {
+  #content {
+    margin: 5%; }
+    #content #content-wrap {
+      padding: 40px 40px; } }
