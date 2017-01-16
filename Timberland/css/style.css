@@ -50,6 +50,14 @@ form.wpcf7-form {
   form.wpcf7-form .wpcf7-form-control-wrap .cf7-small {
     max-width: 250px; }
 
+input.wpcf7-submit {
+  padding: 18px;
+  border: 0px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  font-weight: bold; }
+
 #header-top-bar {
   line-height: 1em; }
   #header-top-bar #header-top-bar-wrap .top-bar-widgets {
@@ -96,9 +104,21 @@ form.wpcf7-form {
 .wp-caption .wp-caption-text {
   font-size: .95em; }
 
+.portfolio .trigger_load_more {
+  height: 44px; }
+  .portfolio .trigger_load_more a.be-button {
+    text-transform: uppercase;
+    font-weight: bold; }
+
 #reach-bottom-cta {
   background-color: #ffdcb0;
   padding-top: 20px; }
+
+#footer a.reach-logo {
+  color: white; }
+#footer .reach-logo:before {
+  content: url("images/reach-favicon.png");
+  padding-right: 4px; }
 
 /* *** keep this at the end *** */
 /* **** media **** */

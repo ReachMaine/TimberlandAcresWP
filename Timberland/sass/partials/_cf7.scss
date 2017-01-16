@@ -7,3 +7,12 @@ form.wpcf7-form {
         max-width: 250px;
     }
 }
+// need 'cause IE doesnt seem to be able to handle input[type="submit"] as a css selector
+input.wpcf7-submit {
+    padding: 18px;
+    border: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-weight: bold;
+}

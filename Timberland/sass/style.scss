@@ -82,12 +82,31 @@ Version: 1.2
 .wp-caption .wp-caption-text {
     font-size: .95em;
 }
+.portfolio {
+    .trigger_load_more {
+        height: 44px;
+        a.be-button {
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+    }
+}
 // footer
 // reach cta
 #reach-bottom-cta {
     background-color: $bottom-cta-bkgd;
     padding-top: 20px;
 
+}
+#footer {
+    a.reach-logo {
+    	color: white;
+    }
+    .reach-logo:before {
+    	content: url('images/reach-favicon.png');
+    	padding-right: 4px;
+    }
 }
 
 /* *** keep this at the end *** */
