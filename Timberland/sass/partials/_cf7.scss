@@ -1,4 +1,9 @@
 /* styling for contact form 7 */
-.wpcf7-form-control-wrap .cf7-small {
-    max-width: 250px;
+form.wpcf7-form {
+    background-color: $tarvp-tan;
+    padding: 15px;
+
+    .wpcf7-form-control-wrap .cf7-small {
+        max-width: 250px;
+    }
 }

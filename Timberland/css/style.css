@@ -44,8 +44,11 @@ table.tablepress.tarvp-rates {
 
 /* **** end tablepress styling **** */
 /* styling for contact form 7 */
-.wpcf7-form-control-wrap .cf7-small {
-  max-width: 250px; }
+form.wpcf7-form {
+  background-color: #ffdcb0;
+  padding: 15px; }
+  form.wpcf7-form .wpcf7-form-control-wrap .cf7-small {
+    max-width: 250px; }
 
 #header-top-bar {
   line-height: 1em; }
@@ -86,6 +89,9 @@ table.tablepress.tarvp-rates {
 .tatsu-medium-gutter .tatsu-column.tarvp-nopad-col {
   padding-left: 0px;
   padding-right: 0px; }
+
+.tatsu-column.tarvp-col-center {
+  text-align: center; }
 
 .wp-caption .wp-caption-text {
   font-size: .95em; }
