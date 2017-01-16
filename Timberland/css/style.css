@@ -69,6 +69,13 @@ table.tablepress.tarvp-rates {
     #content #content-wrap .tatsu-medium-gutter .tatsu-row {
       margin: 0px 0px; }
 
+.tarvp-border {
+  border: 3px solid green; }
+
+.tatsu-medium-gutter .tatsu-column.tarvp-nopad-col {
+  padding-left: 0px;
+  padding-right: 0px; }
+
 #reach-bottom-cta {
   background-color: #ffdcb0;
   padding-top: 20px; }
