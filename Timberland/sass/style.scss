@@ -10,7 +10,19 @@ Version: 1.2
 @import "partials/colors";
 @import "partials/typography";
 @import "partials/tablepress";
+@import "partials/cf7";
 
+
+#header-top-bar {
+    line-height: 1em;
+    #header-top-bar-wrap {
+        .top-bar-widgets {
+            font-family: Roboto, "Open Sans", Arial, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+}
 
 
 /*** slidebar in oshine slidebar is above main content *** */
@@ -48,7 +60,7 @@ Version: 1.2
     background-color: $content-bkgd!important;
     margin: 30px;
     /* - see media for content padding. */
-    border: 6px solid green;
+    border: 6px solid $green;
     #content-wrap {
         padding: 40px 20px;
         .tatsu-medium-gutter .tatsu-row {
@@ -56,12 +68,16 @@ Version: 1.2
         }
     }
 }
+
 .tarvp-border {
-    border: 3px solid green;
+    border: 3px solid $green;
 }
 .tatsu-medium-gutter .tatsu-column.tarvp-nopad-col {
     padding-left: 0px;
     padding-right: 0px;
+}
+.wp-caption .wp-caption-text {
+    font-size: .95em;
 }
 // footer
 // reach cta
