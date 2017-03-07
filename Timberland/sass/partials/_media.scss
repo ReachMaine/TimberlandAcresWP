@@ -48,6 +48,13 @@
   .tatsu-column.tatsu-column-no-bg.tatsu-one-half.tatsu-clearfix {
     order: 2;
   }
+  .tatsu-wrap {
+    max-width: 350px;
+  }
+  .tablepress td, .tablepress th {
+    padding: 3px !important;
+    font-size: .55em !important;
+  }
 }
 @media only screen and (max-width: 479px) {
     // phones
@@ -64,6 +71,9 @@
             .tatsu-row  {
                 margin-left: 0px;
                 margin-right: 0px;
+            }
+            .tatsu-wrap {
+              max-width: 335px;
             }
         }
     }
