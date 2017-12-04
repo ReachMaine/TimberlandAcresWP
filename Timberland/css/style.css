@@ -49,6 +49,15 @@ form.wpcf7-form {
   padding: 15px; }
   form.wpcf7-form .wpcf7-form-control-wrap .cf7-small {
     max-width: 250px; }
+  form.wpcf7-form textarea {
+    height: 200px;
+    background-color: white; }
+
+.wpcf7 form div.sent {
+  display: none; }
+
+.wpcf7 form.sent div.sent {
+  display: block; }
 
 input.wpcf7-submit {
   padding: 18px;
@@ -57,12 +66,6 @@ input.wpcf7-submit {
   text-transform: uppercase;
   border-radius: 0px;
   font-weight: bold; }
-
-.wpcf7 form div.sent {
-  display: none; }
-
-.wpcf7 form.sent div.sent {
-  display: block; }
 
 @media print {
     /* Default Print Stylesheet Template

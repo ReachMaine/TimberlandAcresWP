@@ -6,16 +6,12 @@ form.wpcf7-form {
     .wpcf7-form-control-wrap .cf7-small {
         max-width: 250px;
     }
+    textarea {
+     height: 200px;
+     background-color: white;
+   }
 }
-// need 'cause IE doesnt seem to be able to handle input[type="submit"] as a css selector
-input.wpcf7-submit {
-    padding: 18px;
-    border: 0px;
-    margin-top: 10px;
-    text-transform: uppercase;
-    border-radius: 0px;
-    font-weight: bold;
-}
+
 
 .wpcf7 form div.sent {
   display: none;
@@ -23,4 +19,14 @@ input.wpcf7-submit {
 
 .wpcf7 form.sent div.sent {
   display: block;
+}
+// need 'cause IE doesnt seem to be able to handle input[type="submit"] as a css selector
+// not sure if we still need this....but jic
+input.wpcf7-submit {
+    padding: 18px;
+    border: 0px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border-radius: 0px;
+    font-weight: bold;
 }
