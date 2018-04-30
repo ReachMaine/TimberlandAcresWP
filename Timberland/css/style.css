@@ -86,7 +86,7 @@ input.wpcf7-submit {
 
   /* SECTION 2: Remove any elements not needed in print.
      This would include navigation, ads, sidebars, etc. */
-  #topnav, #navbar, #nav, #sidebar, .ad, .noprint {
+  #topnav, #navbar, #nav, #sidebar, .ad, .noprint, .sb-slidebar {
     display: none; }
 
   /* SECTION 3: Set body font face, size, and color.
@@ -128,10 +128,32 @@ input.wpcf7-submit {
   a:link, a:visited {
     color: #00c;
     font-weight: bold;
-    text-decoration: underline; }
+    text-decoration: none; }
 
-  #content a:link:after, #content a:visited:after {
-    content: " (" attr(href) ") "; } }
+  /*#content a:link:after, #content a:visited:after {
+  	content: " (" attr(href) ") ";
+  }*/
+  a[href]:after {
+    content: none !important; }
+
+  .left-header.left-static #main-wrapper {
+    margin-left: 0px; }
+    .left-header.left-static #main-wrapper #content {
+      margin: 0px;
+      border: 0px; }
+
+  .be_image_slider .owl-carousel .owl-item {
+    text-align: left; }
+
+  .owl-stage-outer.owl-height {
+    height: 4in; }
+
+  .owl-carousel .owl-item img {
+    width: 7in;
+    height: 4in; }
+
+  body.home .tatsu-section .tatsu-row-wrap:nth-child(2) {
+    margin-top: -2in; } }
 #header-top-bar {
   line-height: 1em; }
   #header-top-bar #header-top-bar-wrap .top-bar-widgets {
