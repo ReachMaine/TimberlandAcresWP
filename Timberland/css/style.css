@@ -86,7 +86,7 @@ input.wpcf7-submit {
 
   /* SECTION 2: Remove any elements not needed in print.
      This would include navigation, ads, sidebars, etc. */
-  #topnav, #navbar, #nav, #sidebar, .ad, .noprint, .sb-slidebar {
+  #topnav, #navbar, #nav, #sidebar, .ad, .noprint {
     display: none; }
 
   /* SECTION 3: Set body font face, size, and color.
@@ -128,32 +128,10 @@ input.wpcf7-submit {
   a:link, a:visited {
     color: #00c;
     font-weight: bold;
-    text-decoration: none; }
+    text-decoration: underline; }
 
-  /*#content a:link:after, #content a:visited:after {
-  	content: " (" attr(href) ") ";
-  }*/
-  a[href]:after {
-    content: none !important; }
-
-  .left-header.left-static #main-wrapper {
-    margin-left: 0px; }
-    .left-header.left-static #main-wrapper #content {
-      margin: 0px;
-      border: 0px; }
-
-  .be_image_slider .owl-carousel .owl-item {
-    text-align: left; }
-
-  .owl-stage-outer.owl-height {
-    height: 4in; }
-
-  .owl-carousel .owl-item img {
-    width: 7in;
-    height: 4in; }
-
-  body.home .tatsu-section .tatsu-row-wrap:nth-child(2) {
-    margin-top: -2in; } }
+  #content a:link:after, #content a:visited:after {
+    content: " (" attr(href) ") "; } }
 #header-top-bar {
   line-height: 1em; }
   #header-top-bar #header-top-bar-wrap .top-bar-widgets {
@@ -162,6 +140,8 @@ input.wpcf7-submit {
     font-weight: 500; }
 
 /*** slidebar in oshine slidebar is above main content *** */
+#sb-slidebar-content #logo-sidebar {
+  padding-right: 5px; }
 #sb-slidebar-content .menu {
   background-color: #b41512;
   border: 1px solid #b41512;
@@ -242,9 +222,6 @@ input.wpcf7-submit {
   h4 {
     font: 700 18px "Roboto Condensed","Open Sans","Arial",sans-serif !important;
     line-height: 23px !important; }
-
-  .left-header .left-strip-wrapper, .left-header #left-header-mobile {
-    background-color: #d8e6af !important; }
 
   .ta-how-to-get-here-columns {
     display: flex; }
