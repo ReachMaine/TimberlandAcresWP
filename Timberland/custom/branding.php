@@ -5,6 +5,10 @@
 	/*****  change the login screen logo ****/
 	function my_login_logo() { ?>
 		<style type="text/css">
+		  body.login div#login h1 {
+				padding: 10px;
+				background-color: white;
+			}
 			body.login div#login h1 a {
 				background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/images/admin-login.png);
 				padding-bottom: 30px;
