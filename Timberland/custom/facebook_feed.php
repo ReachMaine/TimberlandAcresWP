@@ -10,7 +10,7 @@ if ( !function_exists('reach_facebook_feed') ) {
             'title' => 'HERE',
         ), $atts, 'fb_feed' );
         $fb_id = $atts['fb_id'];
-        if ($atts[include_sdk] == 'true') {
+        if ($atts['include_sdk'] == 'true') {
             $include_sdk = true;
         } else {
             $include_sdk = false;
